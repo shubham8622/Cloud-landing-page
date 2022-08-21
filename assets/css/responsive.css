@@ -1,0 +1,135 @@
+
+@media only screen and (max-width:1280px) {
+    
+    .navigation ul {
+        gap: 2rem;
+    }
+    .hero-banner{
+        height: auto;
+        padding: 7rem 0 2rem 0;
+    }
+    .hero-heading h1 {
+        font-size: 2.5rem;
+    }
+    .hero-section{
+        align-items: center;
+        gap: 5rem;
+    }
+    .saas-image {
+        width: 30rem;
+    }
+    .saas-section{
+        gap: 5rem;
+    }
+    .features{
+        grid-template-columns: repeat(3,1fr);
+        justify-items: center;
+    }
+    .feature-list {
+        max-width: 18rem;
+    }    
+    .feature-content p{
+        margin: 1rem 0;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .navigation{
+        display: none;
+    }
+    .bars{
+        display: block;
+        color: #ffffff;
+        max-width: 20rem;
+    }
+    .hero-banner{
+        height: auto;
+        padding: 7rem 0 2rem 0;
+    }
+    .hero-section{
+        align-items: center;
+        gap: 3rem;
+    }
+    .hero-heading{
+        max-width: 100%;
+    }
+    .hero-heading h1 {
+        font-size: 2rem;
+    }
+    .hero-heading p{
+        margin: 1rem 0;
+    }
+    .hero-section{
+        flex-direction: row;
+    }
+    .hero-content{
+        margin: 1rem 0;
+    }
+    .saas-section{
+        gap: 5rem;
+    }
+    .saas-image {
+        width: 40rem;
+    }
+    .saas-section{
+        margin: 5rem 0;
+    }
+    .features{
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+    }
+    .feature-list {
+        max-width: 18rem;
+    }    
+    .feature-content p{
+        margin: 1rem 0;
+    }
+}
+@media only screen and (max-width:708px) {
+    .container {
+        width: min(95%,80rem);
+    }
+    .hero-banner{
+        height: auto;
+        padding: 7rem 0 3rem 0;
+    }
+    .hero-section{
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .hero-content{
+        margin:0;
+    }
+    .hero-heading{
+        max-width: 100%;
+    }
+    .hero-heading p {
+        margin-top: 1rem;
+    }
+    .hero-image {
+        width: 18rem;
+        align-self: flex-end;
+    }
+    .saas-content{
+        justify-content: start;
+    }
+    .saas-section{
+        flex-direction: column-reverse;
+        margin: 5rem 0;
+        gap: 1rem;
+    }
+    .saas-image {
+        width: 17rem;
+        align-self: flex-end;
+    }    
+    .features{
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center;
+    }
+    .feature-list{
+        max-width: 18rem;
+    }
+    .feature-content p{
+        margin: 1rem 0;
+    }
+}
