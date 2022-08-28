@@ -11,7 +11,7 @@
 <hr/>
 
 ## How much time did it take to build this project?
-* I have taken 8hr to complete this hero-section.
+* I have taken 2hr to complete this hero-section.
 
 <hr/>
 
